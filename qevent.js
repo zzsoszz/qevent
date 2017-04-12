@@ -75,7 +75,7 @@
 				            $this.trigger("swipedown");
 				            break;
 				        case 3:
-				        	//向左
+				        	//alert("向左");
 				        	$this.trigger("swipeleft");
 				            break;
 				        case 4:
@@ -95,8 +95,8 @@
 			$(this).off(settings.startevent).off(settings.endevent);
 		}
 	};
-
-	 $.each({
+	
+	$.each({
 	        scrollend: 'scrollstart',
 	        swipeup: 'swipe',
 	        swiperight: 'swipe',
