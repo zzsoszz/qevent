@@ -1,6 +1,8 @@
 /*
 	https://learn.jquery.com/events/event-extensions/
 	http://benalman.com/news/2010/03/jquery-special-events/#api-setup
+	https://github.com/benmajor/jQuery-Touch-Events#7-utility-functions
+	https://github.com/benmajor/jQuery-Touch-Events/blob/master/src/jquery.mobile-events.js
 */
  (function($){
 	function GetSlideAngle(dx, dy) {
@@ -95,7 +97,7 @@
 			$(this).off(settings.startevent).off(settings.endevent);
 		}
 	};
-	
+
 	$.each({
 	        scrollend: 'scrollstart',
 	        swipeup: 'swipe',
